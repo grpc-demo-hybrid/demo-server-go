@@ -1,0 +1,3 @@
+[submodule "demo_proto"]
+	path = demo_proto
+	url = git@github.com:grpc-demo-hybrid/demo_proto.git

@@ -9,7 +9,8 @@ import (
 
 	"context"
 
-	pb "github.com/gonzalez-lee/mygo/helloworld"
+	pb "demo_proto"
+
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 )
