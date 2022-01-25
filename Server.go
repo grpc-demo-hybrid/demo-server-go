@@ -9,7 +9,7 @@ import (
 
 	"context"
 
-	pb "demo_proto"
+	pb "github.com/grpc-demo-hybrid/demo_server_go/demo_proto"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"

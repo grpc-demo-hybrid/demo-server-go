@@ -4,7 +4,6 @@ go 1.17
 
 require (
 	github.com/golang/protobuf v1.5.2
-	github.com/gonzalez-lee/mygo v0.0.0-20220123024849-3a3bd6433c5f
 	golang.org/x/net v0.0.0-20220121210141-e204ce36a2ba
 	google.golang.org/grpc v1.43.0
 )
