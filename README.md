@@ -1,9 +1,8 @@
 # GRPC demo
 
-包含3个工程：
-
-demo-proto： 定义proto的工程
-
-demo-server-go: go语言实现的grpc server工程
-
-demo-client-java: java实现的grpc client工程
+ git clone git@github.com:grpc-demo-hybrid/demo_server_go.git
+ cd demo_server_go/
+ git submodule init
+ git submodule update
+ protoc --go_out=plugins=grpc:. demo_proto/*.proto
+ go build
